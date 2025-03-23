@@ -6,7 +6,7 @@
 .container {
     width: 90%;
     max-width: 856px;
-    margin: 0 auto; /* Центрирование контейнера по горизонтали */
+    margin: 0 auto;
     padding: 20px 0;
 }
 
@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px; /* Расстояние между элементами */
+    gap: 20px;
     width: 100%;
     max-width: 497px;
 }
@@ -59,11 +59,10 @@
 #blog_list {
     background: bisque;
     padding: 20px 25px;
-    width: 100%;
 }
 
 .text2 {
-    padding-top: 20px; /* Внутренний отступ сверху */
+    padding-top: 20px;
 }
 
 .blocks {
@@ -73,10 +72,10 @@
 }
 
 .block {
-    flex: 1; /* Равномерное распределение пространства между блоками */
+    flex: 1;
     padding: 10px;
     background-color: aliceblue;
-    text-align: justify; /* Выравнивание текста по ширине */
+    text-align: justify;
 }
 
 .text {
@@ -116,7 +115,7 @@
 .contact-form input[type="submit"] {
     background: #007BFF;
     color: #fff;
-    cursor: pointer; /* Изменение курсора при наведении */
+    cursor: pointer;
 }
 
 .social_media {
